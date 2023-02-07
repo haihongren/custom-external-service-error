@@ -8,7 +8,10 @@ Custom Instrumentation for track external service http call error return code fo
 
 ## Installation / Usage
 
-1. Drop the extension jar in the newrelic agent's "extensions" folder.
+1. Drop the extension jar in the newrelic agent's "extensions" folder
+    - httpclient-4.0-custom.jar
+    - httpurlconnection-custom.jar
+
 2. Edit the newrelic agent's configuration file (`newrelic.yml`) and add the following properties as applicable to the `common` stanza:
 
 ```yaml
