@@ -1,0 +1,4 @@
+rootProject.name = 'custom-external-service-error'
+
+include 'httpclient-4.0-custom'
+include 'httpurlconnection-custom'
